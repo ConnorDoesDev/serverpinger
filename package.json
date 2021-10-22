@@ -1,6 +1,10 @@
 {
   "name": "serverpinger",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "push": "git add . && git commit -m \"$msg\" && git push"
+  },
   "dependencies": {
     "@zerotwobot/del.js": "^1.0.1",
     "discord.js": "^13.1.0",
